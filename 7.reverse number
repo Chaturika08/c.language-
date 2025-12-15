@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+  int n =1980008 , rev = 0 , rem ;
+  while (n > 0) {
+    rev = n %10 ;
+    rev = rev * 10 + rem ;
+    }
+  printf("reversed % d" , rev);
+  return 0 ;
+  }
+
+    
+    
+    
+  
